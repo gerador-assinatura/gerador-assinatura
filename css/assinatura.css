@@ -45,28 +45,25 @@ button {
 
 .nome {
   position: absolute;
-  top: 60px;
-  left: 220px;
+  font-size: 25px;
+  top: 30px;
+  left: 400px;
 }
 
 .cargo {
-  position: absolute;
-  top: 85px;
-  left: 220px;
+  top: 65px;
+  left: 400px;
+}
+
+.telefone {  
+  top: 108px;
+  left: 435px;
 }
 
 .email {
-  position: absolute;
-  top: 190px;
-  left: 480px;
-  color: #fff; /*COR DO TEXTO EMAIL*/
-}
-
-.telefone {
-  position: absolute;
-  top: 156px;
-  left: 480px;
-  color: #fff; /*COR DO TEXTO TELEFONE*/
+  top: 176px;
+  left: 435px;
+  
 }
 
 .site {  
