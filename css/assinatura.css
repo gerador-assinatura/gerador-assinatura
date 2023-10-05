@@ -4,16 +4,19 @@
 
 
 body {
-  color: #2a2e39;
+  color: #000000;
   font-family: "Gotham Rounded";
   background-color: #fff;
   border-collapse: collapse;
   background-size: 100%;
+
 }
 
 table {
   width: 850px;
-  height: 250px;
+  /*Defina a largura desejada*/
+  height: 300px;
+  /*Defina a altura desejada*/
 }
 
 button {
@@ -24,42 +27,46 @@ button {
 
 .elemento {
   position: absolute;
-  color:#183642;
-  font-size: 18px;
+  color: black;
+  font-size: 20px;
   background-color: rgba(0, 0, 0, 0);
   padding: 10px;
   border-radius: 5px;
   font-family: "Gotham Rounded";
-  text-align: right;
 }
 
 .container {
   position: relative;
   width: auto;
+  /*Largura da área de visualização*/
   height: auto;
+  /*Altura da área de visualização*/
 }
 
 .nome {
   position: absolute;
-  font-size: 25px;
-  top: 30px;
-  left: 400px;
+  top: 60px;
+  left: 220px;
 }
 
 .cargo {
-  top: 65px;
-  left: 400px;
-}
-
-.telefone {  
-  top: 108px;
-  left: 435px;
+  position: absolute;
+  top: 85px;
+  left: 220px;
 }
 
 .email {
-  top: 176px;
-  left: 435px;
-  
+  position: absolute;
+  top: 190px;
+  left: 480px;
+  color: #fff; /*COR DO TEXTO EMAIL*/
+}
+
+.telefone {
+  position: absolute;
+  top: 156px;
+  left: 480px;
+  color: #fff; /*COR DO TEXTO TELEFONE*/
 }
 
 .site {  
